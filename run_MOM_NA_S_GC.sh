@@ -14,6 +14,6 @@ qsub << EOF
 #PBS -q regular                             
 #PBS -M chepurin@atmos.umd.edu              
 
-./na_s_run.csh > MOM_NA_S.log
+./na_s_run_GC.csh > MOM_NA_S.log
 
 EOF

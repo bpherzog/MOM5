@@ -15,6 +15,6 @@ qsub << EOF
 #PBS -m abe
 #PBS -M bherzog@umd.edu              
 
-./na_s_run.csh > MOM_NA_S.log
+./na_s_run_BH.csh > MOM_NA_S.log
 
 EOF
