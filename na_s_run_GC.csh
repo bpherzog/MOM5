@@ -8,7 +8,7 @@ set exp_dir   =  $root_dir/exp                       # dirrectory where is MOM5 
 set mom_run_dir =  $root_dir/work/$exp_name          # dirrectory where MOM5 runs
 set mom_input_dir = $mom_run_dir/INPUT               # dirrectory where is MOM5 input
 set mom_restart_dir = $mom_run_dir/RESTART           # dirrectory where are MOM5 restart files
-set soda_archive = /glade/scratch/bherzog/$exp_name # dirrectory to archive results 
+set soda_archive = /glade/scratch/chepurin/$exp_name # dirrectory to archive results 
 
 #### move RESTART files to the INPUT
   mv -f $mom_restart_dir/*  $mom_input_dir/            # move MOM5's restart files into the INPUT dirrectory
